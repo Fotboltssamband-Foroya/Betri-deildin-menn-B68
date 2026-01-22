@@ -34,11 +34,11 @@ for match in data.get("results", []):
     event.location = location
 
     # Clean description (no match status)
-    event.description = (
-        f"🏆 {competition}\n"
-        f"🔁 Umfar: {round_number}\n"
-        f"📅 Skrá & stigatalva:\n{INFO_URL}"
-    )
+ event.description = (
+    f"🏆 {competition}\n"
+    f"🔁 Umfar: {round_number}\n"
+    f"📅 Skrá & stigatalva: {INFO_URL}"
+)
 
     calendar.events.add(event)
 
