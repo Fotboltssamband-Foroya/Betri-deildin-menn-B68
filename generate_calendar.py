@@ -36,7 +36,7 @@ for match in data.get("results", []):
     # Clean description (no match status)
     event.description = (
         f"🏆 {competition}\n"
-        f"🔁 Umfar: {round_number}\n\n"
+        f"🔁 Umfar: {round_number}\n"
         f"📅 Skrá & stigatalva:\n{INFO_URL}"
     )
 
